@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>false</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>500</repeat_period>
+  <packets_list>
+    <packet name="AT">
+      <payload>41540D0A</payload>
+    </packet>
+    <packet name="START GPS">
+      <payload>41542B434750533D310D0A</payload>
+    </packet>
+    <packet name="GET GPS INFO">
+      <payload>41542B43475053494E464F0D0A</payload>
+    </packet>
+    <packet name="STOP GPS">
+      <payload>41542B434750533D300D0A</payload>
+    </packet>
+    <packet name="SET SMS PDU MODE">
+      <payload>41542B434D47463D310D0A</payload>
+    </packet>
+    <packet name="DESTINATARIO SMS">
+      <payload>41542B434D47533D222B353234373737383735333030220D0A</payload>
+    </packet>
+    <packet name="MESSAGE SMS">
+      <payload>50616E6469415049</payload>
+    </packet>
+    <packet name="SEND SMS">
+      <payload>1A</payload>
+    </packet>
+    <packet name="VOICE CHANNEL">
+      <payload>41542B43534456430D0A</payload>
+    </packet>
+    <packet name="PHONE MODE">
+      <payload>41542B43534456433D310D0A</payload>
+    </packet>
+    <packet name="VOLUME">
+      <payload>41542B434C564C3D320D0A</payload>
+    </packet>
+    <packet name="CALL NUMBER">
+      <payload>4154442B3532343737373837353330303B0D0A</payload>
+    </packet>
+    <packet name="HANG UP CALL">
+      <payload>41542B434855500D0A</payload>
+    </packet>
+    <packet name="LINE ID">
+      <payload>41542B434C49503D310D0A</payload>
+    </packet>
+    <packet name="ANSWER CALL">
+      <payload>4154410D0A</payload>
+    </packet>
+    <packet name="READ SMS">
+      <payload>41542B434D474C3D2252454320554E52454144220D0A</payload>
+    </packet>
+  </packets_list>
+</data>
